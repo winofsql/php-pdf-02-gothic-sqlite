@@ -1,6 +1,6 @@
 <?php
-define ('K_PATH_FONTS', "tcpdf/");
-require_once('tcpdf/tcpdf.php');
+define ('K_PATH_FONTS', "../tcpdf/");
+require_once('../tcpdf/tcpdf.php');
 
 // ************************************************
 //   P or PORTRAIT(縦:既定)
