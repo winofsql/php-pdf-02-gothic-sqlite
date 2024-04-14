@@ -64,7 +64,7 @@ foreach ($messages as $row) {
 
 }
 
-$mysqli->close();
+$db = null;
 
 // ブラウザへ PDF を出力します
 $pdf->Output("test_output.pdf", "I");
